@@ -46,15 +46,17 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-assets:
-    - assets/images/cart.png
-    - assets/images/cart-hl.png
-    - assets/images/category.png
-    - assets/images/category-hl.png
-    - assets/images/home.png
-    - assets/images/home-hl.png
-    - assets/images/me.png
-    - assets/images/me.png
+  assets:
+#   - assets/images/cart.png
+#   - assets/images/cart-hl.png
+#   - assets/images/category.png
+#   - assets/images/category-hl.png
+#   - assets/images/home.png
+#   - assets/images/home-hl.png
+#   - assets/images/me.png
+#   - assets/images/me.png
+    - assets/images/
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
