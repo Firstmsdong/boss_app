@@ -43,7 +43,6 @@ class Msg{
       "position": "HR",
       "msg": "好你好你好你好你好"
     }] ;
-    print(mapData);
     mapData.forEach((obj){
       Msg jo = new Msg(
           name: obj['name'],

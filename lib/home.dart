@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:boss_app/commponent/icon_tab.dart';
 import 'package:boss_app/view/job_view.dart';
 import 'package:boss_app/view/msg_view.dart';
+import 'package:boss_app/view/company/company_view.dart';
+import 'package:boss_app/view/userCenter_view.dart';
 class BossApp extends StatefulWidget {
 
   @override
@@ -49,9 +51,9 @@ class HomeState extends State<BossApp> with SingleTickerProviderStateMixin {
       body: new TabBarView(
         children:<Widget>[
           new JobsTab(),
-          new JobsTab(),
+          new CompanyTab(),
           new MsgTab(),
-          new JobsTab(),
+          new UserCenterTab(),
         ],
         controller: _controller,
       ),
